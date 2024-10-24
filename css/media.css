@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1400px) {
+    /* CSS rules */
+}
+
+@media only screen and (max-width: 1200px) {
+    body{
+        width: 100%;
+    }
+    section{
+        padding: 60px 20px;
+    }
+}
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+    .category_boxes .box {
+        width: 300px;
+        width: 40%;
+        }
+    .category_boxes {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    div.box:nth-child(3) {
+        margin-top: 30px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+    .category_boxes .box {
+        width: 40%;
+        width: 100%;
+        max-width: 350px;
+    }
+    div.box:nth-child(2) {
+        margin-top: 30px;
+    }
+}

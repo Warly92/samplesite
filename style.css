@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", serif;
+    line-height: 1em;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 0;
+}
+section .category_info {
+    margin: 0 0 40px;
+    text-align: center;
+}
+section .category_info h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0 0 20px;
+}
+section .category_info p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.category_boxes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.category_boxes .box{
+    width: 300px;
+    background: #f2f2f2;
+    padding: 40px 20px;
+}
+.category_boxes .box img{}
+.category_boxes .box h3{
+    font-size: 30px;
+    line-height: 100%;
+    margin: 15px 0 15px;
+    font-weight: 500;
+}
+.category_boxes .box p{
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 30px;
+}
+.category_boxes .box a{
+    background: #D8673D;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 150px;
+    border-radius: 150px;
+}
+.category_boxes .box a:hover{
+    background: #007527;
+}
+
+
+/* Nav */
+nav{
+    margin-top: 30px;
+}
+nav ul{}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 100%;
+    padding: 10px 15px;
+}
+nav ul li ul.dropdown li{
+    display: block;
+}
+nav ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+
